@@ -8,8 +8,9 @@ namespace zad1
 {
     public class Tablice
     {
+        public int liczba = 20;
         public void Powitanie() {
-            Console.WriteLine("Witaj w klasie Tablice");
+            Console.WriteLine("Witaj w klasie Tablice :)");
         }
 
     }
