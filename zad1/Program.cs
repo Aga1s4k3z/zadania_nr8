@@ -8,6 +8,6 @@ class Program
         //wywołujemy obiekt 'Tablice'
         Tablice t = new Tablice();
         t.Powitanie();
-        Console.WriteLine(t.liczba);
+        int[] ints = t.Stworz_tab();
     }
 }
