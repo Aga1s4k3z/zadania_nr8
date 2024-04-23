@@ -9,5 +9,7 @@ class Program
         Tablice t = new Tablice();
         t.Powitanie();
         int[] ints = t.Stworz_tab();
+        Console.Clear();
+        t.Wyswietl_tab(ints);
     }
 }

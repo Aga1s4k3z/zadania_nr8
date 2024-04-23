@@ -28,6 +28,13 @@ namespace zad1
             Console.WriteLine();
             return tab;
         }
-
+        public void Wyswietl_tab(int[] tab)
+        {
+            for ( int i = 0;i < tab.Length;i++ )
+            {
+                Console.Write(tab[i]+", ");
+            }
+            Console.WriteLine();
+        }
     }
 }
