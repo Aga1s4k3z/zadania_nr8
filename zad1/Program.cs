@@ -10,6 +10,10 @@ class Program
         t.Powitanie();
         int[] ints = t.Stworz_tab();
         Console.Clear();
+        Console.WriteLine("Elementy tablicy:");
         t.Wyswietl_tab(ints);
+        Console.WriteLine("Posortowana tablica: ");
+        int[] tab = t.Sort(ints);
+        t.Wyswietl_tab(tab);
     }
 }

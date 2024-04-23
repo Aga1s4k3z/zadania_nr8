@@ -30,11 +30,28 @@ namespace zad1
         }
         public void Wyswietl_tab(int[] tab)
         {
+            
             for ( int i = 0;i < tab.Length;i++ )
             {
                 Console.Write(tab[i]+", ");
             }
             Console.WriteLine();
+            Console.WriteLine();
+        }
+        public int[] Sort(int[] tab)
+        {
+            for ( int i = 0; i < tab.Length ; i++ ) {
+            for ( int j = 0; j < tab.Length - 1 ; j++ )
+                {
+                    if (tab[j] > tab[j + 1])
+                    {
+                        int temp = tab[j];
+                        tab[j] = tab[j + 1];
+                        tab[j + 1] = temp;
+                    }
+                }
+            }
+            return tab;
         }
     }
 }
