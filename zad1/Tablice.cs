@@ -52,6 +52,18 @@ namespace zad1
                 }
             }
             return tab;
+        } 
+        public bool Przeszukiwanie(int[] ints, int sz)
+        {
+            bool tak = false;
+            for (int i=0;i<ints.Length;i++) {
+            if (ints[i] == sz)
+                {
+                    tak = true;
+                    return true;
+                }
+            }
+            if (tak == false) { return false; } else { return false; }
         }
     }
 }

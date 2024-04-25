@@ -15,5 +15,8 @@ class Program
         Console.WriteLine("Posortowana tablica: ");
         int[] tab = t.Sort(ints);
         t.Wyswietl_tab(tab);
+        Console.Write("Jakiej liczby szukasz? ");
+        int sz = int.Parse(Console.ReadLine());
+        Console.WriteLine(t.Przeszukiwanie(tab, sz));
     }
 }
